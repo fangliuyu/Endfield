@@ -1,0 +1,8 @@
+
+# === 自动生成的spec文件补丁 ===
+# 将以下内容添加到你的spec文件的Analysis部分：
+
+hiddenimports = ['json', 'pathlib', 'logging', 'pandas', 'keynote_parser', 'importlib', 'typing', '__future__', 'dataclasses', 'ast', 'csv', 'subprocess', 'zipfile', 're', 'matplotlib', 'traceback', 'numpy', 'pptx', 'PySide6', 'datetime', 'abc', 'openpyxl', 'collections', 'PIL', 'io', 'os']
+
+# 或者在命令行中使用：
+# arch -x86_64 .venv/bin/python -m PyInstaller your_script.py --hidden-import=json --hidden-import=pathlib --hidden-import=logging --hidden-import=pandas --hidden-import=keynote_parser --hidden-import=importlib --hidden-import=typing --hidden-import=__future__ --hidden-import=dataclasses --hidden-import=ast --hidden-import=csv --hidden-import=subprocess --hidden-import=zipfile --hidden-import=re --hidden-import=matplotlib --hidden-import=traceback --hidden-import=numpy --hidden-import=pptx --hidden-import=PySide6 --hidden-import=datetime --hidden-import=abc --hidden-import=openpyxl --hidden-import=collections --hidden-import=PIL --hidden-import=io --hidden-import=os
